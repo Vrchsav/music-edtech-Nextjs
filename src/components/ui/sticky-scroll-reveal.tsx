@@ -39,11 +39,7 @@ export const StickyScroll = ({
   });
 
   // Remove background color change logic
-  const backgroundColors = [
-    "var(--slate-900)",
-    "var(--black)",
-    "var(--neutral-900)",
-  ];
+  
 
   const [backgroundGradient, setBackgroundGradient] = useState(
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))"
